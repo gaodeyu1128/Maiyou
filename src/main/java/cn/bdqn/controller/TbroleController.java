@@ -15,6 +15,6 @@ public class TbroleController {
     private TbroleServer tbroleMapper;
     @RequestMapping(value = "/")
     public String auth(@RequestParam int roleId, Model model){
-        return "";
+        return "atue";
     }
 }
