@@ -6,5 +6,5 @@ import cn.bdqn.entity.Page;
 import java.util.List;
 
 public interface TbinfoMapper {
-    List<Info> listPageInfo(Page page);
+    List<Info> listPageInfo(Page page);//分页
 }
