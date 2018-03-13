@@ -11,6 +11,6 @@ public class TbroleServerImpl implements TbroleServer {
     @Resource
     private TbroleMapper tbroleMapper;
     public Role getRoleById(int roleId) {
-        return tbroleMapper.gdtRoleById(roleId);
+        return tbroleMapper.getRoleById(roleId);
     }
 }
